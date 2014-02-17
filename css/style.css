@@ -288,3 +288,24 @@ li{
        background-position: 50px 50px;
     }
 }
+
+
+@media screen and (max-width: 950px){
+
+	.conteiner{ width: 100%; margin: 0px ;padding: 0px;}
+	.col-left{
+		width: 95%;
+		position: inherit;
+		padding: 10px;
+		margin-bottom: 20px;
+		float: none;
+	}
+	.col-right{
+		width: 95%;
+		padding: 10px;
+		float: none;
+	}
+
+	.avatar{ width: 150px;}
+
+}
