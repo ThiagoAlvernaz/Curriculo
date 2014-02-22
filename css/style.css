@@ -136,6 +136,8 @@ li{
 
 @media screen and (max-width: 950px){
 
+    body{font-size: 2em;}
+
     .conteiner{ width: 100%; margin: 0px ;padding: 0px;}
     .col-left{
         width: 95%;
