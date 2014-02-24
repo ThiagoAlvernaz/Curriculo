@@ -119,7 +119,7 @@ li{
 .box > span {
     color: #fff;
     background-color: #00a8a8;
-    margin: 10px 5px;
+    margin: 5px 5px;
     padding: 7px;
     opacity: 1;
     transition: background         .50s ease-in-out;
