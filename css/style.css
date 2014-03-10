@@ -1,46 +1,45 @@
 body{
     background-color: #f2f2f2;
+    color: #525252;
     font-size: 1em;
     font-family: 'Varela Round', Arial, sans-serif;
     margin: 15px;
 }
 
 h1{
+    color: #00a8a8;
     text-align: center;
     font-weight: 600;
-    background-color: #f2f2f2;
 }
 
 h3{
-    margin-left: 5px;
     color: #000;
-    border-bottom: 2px solid #000;
-    margin-bottom: 5px;
-    margin-top: 0px;;
+    border-bottom: 1px solid #000;
+    margin: 0 10px 0 5px;
 }
 h4{
     width: 50%;
-    margin-left: 20px;
-    color: #000;
-    border-bottom: 2px solid #000;
+    color: #525252;
+    border-bottom: 2px solid #525252;
     margin-bottom: 5px;
-    margin-top: 0px;;
+    margin-top: 0px;
+    margin-left: 20px;;
 }
 
 p{
     margin: 5px;
-    color: #f2f2f2;
+    color: #181818;
 }
-
-p span{}
 
 ul{
-
+    padding: 0px;
     padding-left: 30px;
+    margin: 10px 0px;
 }
 li{
-    text-align: justify;
-    margin-bottom: 15px;
+    list-style: none;
+    margin: 5px;
+    float: left;
 }
 
 .clear{
@@ -65,8 +64,8 @@ li{
 .col-left{
     position: fixed;
     width: 230px;
-    background-color: #00a8a8;
     margin-left: 5px;
+    border-right: 1px solid #525252;
 }
 
 .col-right{
@@ -79,6 +78,7 @@ li{
     margin: auto;
 
     /* border-radius */
+    border-radius:    50%;
     -webkit-border-radius: 50%;
     -moz-border-radius:    50%;
 
@@ -86,7 +86,6 @@ li{
     box-shadow:         0px 0px 5px #000;
     -webkit-box-shadow: 0px 0px 5px #000;
     -moz-box-shadow:    0px 0px 5px #000;
-    border-radius:    50%;
 }
 
 .avatar img{
@@ -102,6 +101,7 @@ li{
     margin-bottom: 5px;
 }
 .box > p {
+    color: #fff;
     background-color: #00a8a8;
     margin: 10px 5px;
     padding: 7px;
@@ -112,7 +112,7 @@ li{
 }
 
 .box > p:hover{
-    background-color: #000;
+    background-color: #333333;
     cursor: pointer;
 }
 
@@ -129,10 +129,13 @@ li{
 }
 
 .box > span:hover{
-    background-color: #000;
+    background-color: #333333;
     cursor: pointer;
 }
 
+.job{
+    margin-left: 5px;
+}
 
 @media screen and (max-width: 950px){
 
